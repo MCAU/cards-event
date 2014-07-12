@@ -11,15 +11,13 @@ public class sQuery {
 
     public static UUID getExistingPlayerUUID( String player ) {
 
-        String uuid;
-
         try {
 
             ResultSet res = mInit.getSqlConnection().sqlQuery("SELECT uuid FROM users WHERE user = ?", new String[]{player});
 
             if( res.next() ){
 
-                uuid = res.getString("uuid");
+                String uuid = res.getString("uuid");
 
                 return UUID.fromString( uuid.substring(0, 8) + "-" + uuid.substring(8, 12) + "-" + uuid.substring(12, 16) + "-" + uuid.substring(16, 20) + "-" + uuid.substring(20, 32) );
 
