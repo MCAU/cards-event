@@ -1,0 +1,69 @@
+# Change the rarity, numbers have to be higher than the previous value.
+
+rarity:
+  VERY_COMMON: 25
+  COMMON: 45
+  LESS_COMMON: 65
+  RARE: 85
+  VERY_RARE: 95
+  EXTRA_RARE: 100
+
+# The chance of getting a card from the entities death. Values out of 100 (percent), higher means more chance.
+# 0 means absolutely not a chance. 101+ always gives a card.
+
+chance:
+  passive:
+    BAT: 15
+    CHICKEN: 5
+    COW: 5
+    HORSE: 10
+    MUSHROOM_COW: 25
+    OCELOT: 5
+    PIG: 5
+    SHEEP: 5
+    SQUID: 10
+    VILLAGER: 10
+  neutral:
+    ENDERMAN: 25
+    IRON_GOLEM: 10
+    PIG_ZOMBIE: 25
+    WOLF: 10
+  hostile:
+    BLAZE: 25
+    CAVE_SPIDER: 35
+    CREEPER: 25
+    ENDER_DRAGON: 90
+    GHAST: 30
+    GIANT: 50
+    MAGMA_CUBE: 30
+    SILVERFISH: 40
+    SKELETON:
+      NORMAL: 25
+      WITHER: 35
+    SLIME: 30
+    SPIDER: 30
+    WITCH: 35
+    WITHER: 70
+    ZOMBIE:
+      NORMAL: 25
+      VILLAGER: 25
+      BABY: 30
+
+# Skills always remove 5 from 50+ mcMMO levels, 10 from 100+ mcMMO levels, 20 from 200+ mcMMO levels. Keep that in mind.
+# If there is a better solution do please change it!
+
+  skills:
+    ACROBATICS: 30
+    ALCHEMY: 30
+    ARCHERY: 30
+    AXES: 30
+    EXCAVATION: 30
+    FISHING: 30
+    HERBALISM: 30
+    MINING: 30
+    REPAIR: 30
+    SMELTING: 30
+    SWORDS: 30
+    TAMING: 30
+    UNARMED: 30
+    WOODCUTTING: 30

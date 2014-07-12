@@ -1,0 +1,48 @@
+weather:
+  clear:
+    local: "You like to stay nice and dry!"
+    global: "can't stand the rain."
+  rain:
+    local: "You really enjoy dancing in the rain!"
+    global: "just finished doing their rain dance."
+  thunder:
+    local: "Thunder and lightning just for you!"
+    global: "doesn't mind the storms."
+  storm:
+    local: "You don't mind a bit of bad weather..."
+    global: "brings on the bad weather."
+
+time:
+  sunrise:
+    local: "You can now watch the sunrise forever."
+    global: "just wants to see the sunrise."
+  morning:
+    local: "You've always been a morning person."
+    global: "just wants to see the sunrise."
+  day:
+    local: "What a long day, wear some sunscreen!"
+    global: "just wants to see the sunrise."
+  sunset:
+    local: "So &dromantic&e, a sunset forever."
+    global: "just wants to see the sunrise."
+  night:
+    local: "You never liked the sun anyway!"
+    global: "just wants to see the sunrise."
+
+maximumcards: "You have the maximum cards you can have."
+
+registered: "If you have forgotten your password, make a modreq."
+
+nopermission: "You do not have permission to do this."
+
+notregistered: "Don't forget to register for cards!"
+
+noconsole: "You cannot do this via console. Tsk tsk."
+
+maintenance: "Sorry. Cards are under maintenance at the moment."
+
+keepalive: "Checking SQL Heartbeat"
+
+cleantemp: "Cleaning Temporary Users"
+
+cleanstash: "Cleaning Empty Stashes"

@@ -1,0 +1,56 @@
+# Please change your SQL settings here accordingly.
+connection:
+  host: "54.206.71.186"
+  port: "3306"
+  name: "tcgmcau"
+  user: "tcgmcau"
+  pass: "@7cgmc4u!"
+  args:
+    keepalive: 25200
+    cleanusers: 7200
+    cleanstash: 7200
+
+# Password length and salt for user registration. Length can only go up to 16.
+password:
+  length: 4
+  salt: 5
+
+# How many of one card a player can own. | How many cards total a player can have.
+cards:
+  single:
+    default: 5
+    plus: 10
+    donator: 15
+    dplus: 20
+    staff: 30
+  total:
+    default: 50
+    plus: 75
+    donator: 100
+    dplus: 125
+    staff: 150
+
+# What worlds should the cards brands appear?
+brands:
+  - world
+  - world_nether
+  - world_the_end
+
+charity: 0
+tax: 0
+
+spawners: false
+
+deniedregions:
+  - spawn
+  - sandpit
+
+commands:
+  blacklist:
+    - kill
+    - op
+    - restart
+    - reload
+    - stop
+
+maintenance: false
